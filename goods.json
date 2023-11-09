@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Smartphone",
+    "title": "iPhone X",
+    "price": 999.99,
+    "photo": "iphone_x.jpg"
+  },
+  {
+    "name": "Laptop",
+    "title": "Dell XPS 13",
+    "price": 1299.99,
+    "photo": "dell_xps_13.jpg"
+  },
+  {
+    "name": "Headphones",
+    "title": "Sony WH-1000XM4",
+    "price": 349.99,
+    "photo": "sony_wh_1000xm4.jpg"
+  },
+  {
+    "name": "Smartwatch",
+    "title": "Apple Watch Series 6",
+    "price": 399.99,
+    "photo": "apple_watch_series_6.jpg"
+  }
+]
