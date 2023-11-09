@@ -16,11 +16,6 @@ const userSchema = new Schema({
     required: [true, 'Email is required'],
     unique: true,
   },
-  subscription: {
-    type: String,
-    enum: ["start", "mid", "top"],
-    default: "start"
-  },
   token: {
     type: String,
     default: ""
@@ -44,9 +39,6 @@ const userJoiSchema = Joi.object({
     subscription: Joi.string(),
 });
 
-const validateSubscription = Joi.object({
-  subscription: Joi.string().valid("starter", "pro", "business").required(),
-});
 
 const emailSchema = Joi.object(
   {
@@ -55,7 +47,6 @@ const emailSchema = Joi.object(
 
 const schemas = {
     userJoiSchema,
-  validateSubscription,
     emailSchema,
 };
 
